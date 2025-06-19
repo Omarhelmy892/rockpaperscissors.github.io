@@ -1,0 +1,47 @@
+body{
+    background-color: black;
+    color:rgb(241, 233, 9);
+    font-weight: 600;
+    font-family: cursive;
+    overflow-x: hidden;
+}
+h1,p{
+    text-align: center;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    bottom:30px;
+}
+.options img:hover{
+    cursor: pointer;
+}
+#winrate{
+    position: relative;
+    right:300px;
+    top:140px;
+}
+#losses{
+    position: relative;
+    left:235px;
+    top:105px;
+
+}
+#paper{
+    position: relative;
+    right:-13px;
+
+}
+p{
+    font-weight: 600;
+    font-size: large;
+}
+#tries{
+    position: relative;
+    top:40px;
+}
+.stats{
+    position: relative;
+    bottom:20px;
+}
